@@ -1,0 +1,130 @@
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin-left: 5px;
+  background-color: #f4f4f4;
+}
+
+
+/* Global */
+
+a:hover {
+  font-weight: bold;
+}
+
+.dark {
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: circle;
+  margin: 0px 0px 0px 20px;
+  padding: 0px 0px 0px 20px;
+}
+
+li {
+  width: 70%;
+  float: left;
+  margin: 2px;
+}
+
+h3 {
+  padding: 1px;
+  margin: 1px;
+}
+
+.p-reasons {
+  width: 70%;
+  float: left;
+  margin: 2px;
+}
+
+blockquote {
+  width: 70%;
+  float: left;
+  margin-left: 0px;
+  padding-left: 5px;
+}
+
+
+/* Header **/
+
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 5px;
+  min-height: 100px;
+  text-align: center;
+  width: 100%;
+  border-bottom: #e8491d 3px solid;
+}
+
+.container-header {
+  width: 90%;
+  float: left;
+  min-width: 450;
+}
+
+.personal-info h1,
+h4 {
+  text-align: center;
+  margin: 0px;
+  padding-right: 0px;
+}
+
+#mugshot img {
+  float: right;
+  padding-right: 5px;
+}
+
+
+/* Main content */
+
+#credentials {
+  display: block;
+}
+
+#top-reasons img {
+  float: right;
+}
+
+#projects {
+  clear: both;
+}
+
+#projects p {
+  font-size: 1.5em;
+  text-align: left;
+}
+
+#questions p {
+  color: red;
+}
+
+
+/* Sidebar */
+
+aside#sidebar {
+  float: right;
+  width: 20%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: red 2px solid;
+  text-align: center;
+}
+
+
+/* Footer */
+
+footer p {
+  clear: both;
+  padding: 2px;
+  margin: 0px;
+  color: #ffffff;
+  background-color: #e8491d;
+  text-align: center;
+}
