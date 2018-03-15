@@ -116,6 +116,13 @@ h4 {
   margin: 20px 5px;
 }
 
+
+/* fixed top scrolling issue */
+
+#top-reasons {
+  padding-top: 100px;
+}
+
 #top-reasons p {
   margin: 10px;
 }
@@ -150,7 +157,7 @@ aside#sidebar {
   float: right;
   width: 20%;
   padding: 10px;
-  margin: auto 5px 5px auto;
+  margin: 300px 50px 5px 5px;
   border: red 5px solid;
   background-color: blueviolet;
   text-align: center;
